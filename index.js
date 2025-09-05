@@ -10,9 +10,9 @@ module.exports = client;
 client.connect();
 
 client.Jsk = new Dokdo.Client(client, {
-  aliases: ["dokdo", "dok", "jsk"],
-  prefix: "?",
-  owners: ["870179991462236170"],
+  aliases: ["Arr", "Arrki", "Arrkiii"],
+  prefix: ">",
+  owners: ["1187434528810209470"],
 });
 
 process.env.SHELL = process.platform === "win32" ? "powershell" : "bash";
